@@ -9,9 +9,9 @@ POST http://localhost:3000/message
 content-type: application/json
 
 {
-    "content": "Hieebye"
+    "content": "Jan15"
 }
 
 ### get particular Id
 
-GET http://localhost:3000/message/9965645
+GET http://localhost:3000/message/239
