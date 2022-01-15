@@ -1,0 +1,20 @@
+nest new DI --> create new project
+nest g module computer --> create module
+nest g module cpu
+nest g module disk
+nest g module power
+
+---service
+nest g service cpu
+nest g service disk
+nest g service power
+
+---create controller
+nest g controller computer
+
+--change in main.ts
+import computermodule/urmain module, also do change in NestFactory
+
+--check get method through
+
+http://localhost:3000/computer
