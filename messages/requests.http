@@ -1,0 +1,17 @@
+### list all messages
+
+GET http://localhost:3000/message
+
+
+### list all messages
+
+POST http://localhost:3000/message
+content-type: application/json
+
+{
+    "content": "Hieebye"
+}
+
+### get particular Id
+
+GET http://localhost:3000/message/9965645
